@@ -32,6 +32,7 @@ class StudentAthlete(GradedStudent, Athlete):
 # StudentAthlete 클래스의 객체를 생성하고 study 메서드를 호출해보세요.
 # YOUR CODE HERE
 
+if __name__ =="__main__":
 
-SH1=StudentAthlete("이즈리얼", 30, 5, "원딜")
-SH1.study(10)
+    SH1=StudentAthlete("이즈리얼", 30, 5, "원딜")
+    SH1.study(10)
